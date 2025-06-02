@@ -8,32 +8,34 @@
         <link rel="stylesheet" href="gtstyle.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand fs-2 text-light" href="#">Mercedes</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item fs-4">
-                <a class="nav-link text-light active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown fs-4">
-                <a class="nav-link dropdown-toggle text-light" href="#" id="modellekDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modellek</a>
-                    <ul class="dropdown-menu" aria-labelledby="modellekDropdown">
-                          <li><a class="dropdown-item" href="g-osztaly.html">G-osztály</a></li>
-                          <li><a class="dropdown-item" href="blackseries.html">AMG GT Black Series</a></li>
-                          <li><a class="dropdown-item" href=""></a></li>
-                    </ul>
-              </li>
-              <li class="nav-item fs-4">
-                <a class="nav-link text-light" href="#">Kapcsolat</a>
-              </li>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="index.html">
+        <img id="baloldal" src="képek/Mercedes-Logo.svg.png" alt="Mercedes Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item fs-3">
+            <a class="btn btn-outline-light mx-2" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown fs-3">
+            <a class="btn btn-outline-light dropdown-toggle mx-2" href="#" id="modellekDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modellek</a>
+            <ul class="dropdown-menu" aria-labelledby="modellekDropdown">
+              <li><a class="dropdown-item" href="g-osztaly.html">G-osztály</a></li>
+              <li><a class="dropdown-item" href="blackseries.html">AMG GT Black Series</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item fs-3" id="jobboldal">
+            <a class="btn btn-outline-light mx-2" href="#">Kapcsolat</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     
 <div class="container">
   <h1 class="text-center my-5">AMG GT Black Series</h1>
@@ -84,24 +86,24 @@
 
 
 <footer class="bg-dark text-light py-4">
-        <div class="container text-center">
-          <p>&copy; 2025 Mercedes-Benz. Minden jog fenntartva.</p>
-      
-          <div class="d-flex justify-content-center gap-3 mb-2">
-            <a href="#" class="text-light">Adatvédelem</a>
-            <span>|</span>
-            <a href="#" class="text-light">Felhasználási feltételek</a>
-            <span>|</span>
-            <a href="#" class="text-light">Kapcsolat</a>
-          </div>
-      
-          <div class="d-flex justify-content-center gap-3">
-            <span>Kövess minket:</span>
-            <a href="https://www.facebook.com/MercedesBenz/" class="text-light">Facebook</a>
-            <a href="https://www.instagram.com/mercedesbenz/" class="text-light">Instagram</a>
-            <a href="https://x.com/MercedesBenz" class="text-light">Twitter</a>
-          </div>
-        </div>
+  <div class="container text-center">
+    <p>&copy; 2025 Mercedes-Benz. Minden jog fenntartva.</p>
+
+    <div class="d-flex justify-content-center gap-3 mb-2">
+      <a href="#" class="text-light">Adatvédelem</a>
+      <span>|</span>
+      <a href="#" class="text-light">Felhasználási feltételek</a>
+      <span>|</span>
+      <a href="#" class="text-light">Kapcsolat</a>
+    </div>
+
+    <div class="d-flex justify-content-center gap-3">
+      <span>Kövess minket:</span>
+      <a href="https://www.facebook.com/MercedesBenz/" class="text-light">Facebook</a>
+      <a href="https://www.instagram.com/mercedesbenz/" class="text-light">Instagram</a>
+      <a href="https://x.com/MercedesBenz" class="text-light">Twitter</a>
+    </div>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>

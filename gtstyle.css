@@ -21,3 +21,11 @@ text-align: justify;
 h1 {
 font-size: 3.5em;
 }
+
+#jobboldal {
+    margin-right: 150px;
+}
+
+#baloldal {
+    margin-left: 100px;
+}
