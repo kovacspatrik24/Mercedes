@@ -1,0 +1,75 @@
+   body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #email {
+        text-decoration: none;
+    }
+
+    #elerhetosegek {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 700px;
+    font-size: 1.5em;
+    }
+
+    #elerhetosegek p {
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    #kepek img {
+        width: 20%;
+    }
+
+    .elso {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    #jobboldal {
+    margin-right: 150px;
+}
+
+#baloldal {
+    margin-left: 100px;
+}

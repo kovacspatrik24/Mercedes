@@ -1,23 +1,23 @@
 body {
-    background-image: url('képek/hatterkep.jpg');
-    background-size: cover;   
-    background-position: center;  
-    background-repeat: no-repeat;
-    color: white;      
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+  background-image: url(képek/fohatter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-p {
+#valami p {
     text-align: justify;
     max-width: 700px;   
     margin: auto;     
     background-color: rgba(0, 0, 0, 0.5); 
+    color: lightblue;
     padding: 15px;
     border-radius: 8px;
 }
 
+h1, h2 {
+    color: lightblue;
+}
 
 footer {
     margin-top: 50px;
